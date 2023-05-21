@@ -10,31 +10,21 @@
     height: 100px;
     border: 3px solid black;
     margin: 10px;
+    position: relative;
 }
-
-.box1{
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-
-}
+ 
 .box1-inside{
     width: 0;
     height: 100%;
     background-color: red;
     transition: .5s;
+    position: absolute;
 
 }
 .box:hover .box1-inside{
-    width: 100%;
-}
-.box2{
     width: 50%;
-    height: 100%;
-    position: relative;
-    display: inline-block;
-
 }
+ 
 .box2-inside{
     width: 0;
     height: 100%;
@@ -44,6 +34,6 @@
     transition: .5s;
 }
 .box:hover .box2-inside{
-    width: 100%;
+    width: 50%;
  
 }
