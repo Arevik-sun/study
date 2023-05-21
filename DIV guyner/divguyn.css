@@ -25,7 +25,7 @@
     transition: .5s;
 
 }
-.box1:hover .box1-inside{
+.box:hover .box1-inside{
     width: 100%;
 }
 .box2{
@@ -43,7 +43,7 @@
    right: 0;
     transition: .5s;
 }
-.box2:hover .box2-inside{
+.box:hover .box2-inside{
     width: 100%;
  
 }
