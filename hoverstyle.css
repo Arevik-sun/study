@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxBig{
+    width: 600px;
+    height: 600px;
+    
+}
+
+.boxTop{
+    width: 100%;
+    height: 50%;
+   
+    padding: 25px;
+}
+
+.boxLeft{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    float: left;
+    
+}
+.boxLeft:hover{
+    background-image:url(img/download.png); 
+    transition: 3s;
+    background-size: cover;
+   
+}
+
+
+.boxRight{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    float: right;
+     
+}
+.boxRight:hover{
+    background-image: url(img/Flag_of_Russia.svg.webp);
+     transition: 3s;
+     background-size: cover;
+  
+}
+
+.boxBottom{
+    width: 100%;
+    height: 50%;
+    
+    padding: 25px;
+}
+
+.boxLeft1{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.boxLeft1:hover{
+    background-image: url(img/variant_flag_of_the_peoples_republic_of_china.jpg);
+    transition: 3s;
+    background-size: cover;
+}
+
+.boxRight1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    float: right;
+}
+.boxRight1:hover{
+    background-image: url(img/spain-flag__67306.1639690376.1280.1280_grande.webp);
+    transition: 3s;
+    background-size: cover;
+}
+
+
+.p1{
+    text-align: center;
+    transform: scale(0);
+    transition: 3s;
+}
+.h1{
+    text-align: center;
+    margin-top:80px;
+
+}
+.boxLeft:hover .p1 {
+    transform: scale(1);
+    font-weight: bold;
+
+}
+
+.h2{
+    text-align: center;
+    margin-top: 80px;
+}
+.boxRight:hover .p2{
+    transform:scale(1) ;
+    font-weight: bold;
+}
+.p2{
+    text-align: center;
+    transform: scale(0);
+    transition: 3s;
+}
+.h3{
+    text-align: center;
+    margin-top: 80px;
+}
+.p3{
+    text-align: center;
+    transform: scale(0);
+    transition: 3s;
+}
+.boxLeft1:hover .p3{
+    transform:scale(1) ;
+    font-weight: bold;
+}
+.h4{
+    text-align: center;
+    margin-top: 80px;
+}
+.p4{
+    text-align: center;
+    transform: scale(0);
+    transition: 3s;
+}
+.boxRight1:hover .p4{
+    transform: scale(1);
+    font-weight: bold;
+}
