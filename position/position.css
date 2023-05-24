@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    
+    
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    position: absolute;
+    transition: .5s;
+}
+.inside1{
+    left: 0;
+    background-color: red;
+}
+.inside2{
+    right: 0;
+    background-color: greenyellow;
+   top: 0;
+}
+.inside3{
+    bottom: 0;
+    right: 0;
+    background-color: blueviolet;
+
+}
+
+.inside4{
+    bottom: 0;
+    background-color: mediumseagreen;
+
+}
+.box:hover .inside1{
+    left: 83%;
+}
+.box:hover .inside2{
+    top: 83%;
+}
+.box:hover .inside3{
+    right: 83%;
+}
+.box:hover .inside4{
+    bottom: 83%;
+}
